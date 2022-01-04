@@ -1,0 +1,169 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.20f1 (be552157821d) revision 12473633'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 12186 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Users\ASUS\Desktop\I am Angry\Answer\ediot\2021.1.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/games I made/Unity/Stardust/Soope
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+65440
+Successfully changed project path to: D:/games I made/Unity/Stardust/Soope
+D:/games I made/Unity/Stardust/Soope
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 788.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.20f1 (be552157821d)
+[Subsystems] Discovering subsystems at path C:/Users/ASUS/Desktop/I am Angry/Answer/ediot/2021.1.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/games I made/Unity/Stardust/Soope/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940M (ID=0x1347)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   26.21.14.4614
+Initialize mono
+Mono path[0] = 'C:/Users/ASUS/Desktop/I am Angry/Answer/ediot/2021.1.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/ASUS/Desktop/I am Angry/Answer/ediot/2021.1.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/ASUS/Desktop/I am Angry/Answer/ediot/2021.1.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/ASUS/Desktop/I am Angry/Answer/ediot/2021.1.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010288 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 594.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6331ms)
+		BeginReloadAssembly (278ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (3084ms)
+			LoadAssemblies (266ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (789ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (212ms)
+			SetupLoadedEditorAssemblies (1269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (595ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (499ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015483 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\games I made\Unity\Stardust\Soope\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\games I made\Unity\Stardust\Soope\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1938.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.398 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10401ms)
+		BeginReloadAssembly (1262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (8766ms)
+			LoadAssemblies (826ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (3003ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (310ms)
+			SetupLoadedEditorAssemblies (4306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1940ms)
+				BeforeProcessingInitializeOnLoad (415ms)
+				ProcessInitializeOnLoadAttributes (1822ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.42 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3681 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4132.
+Total: 23.753400 ms (FindLiveObjects: 1.303000 ms CreateObjectMapping: 1.932400 ms MarkObjects: 20.379400 ms  DeleteObjects: 0.136200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/explosion.png
+  artifactKey: Guid(7e89d164f64b6f74792d2c125927458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/explosion.png using Guid(7e89d164f64b6f74792d2c125927458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c1f423fe99f64e69d89d23f1c3b807') in 0.910903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.870974 seconds.
+  path: Assets/Sprites/explosion.png
+  artifactKey: Guid(7e89d164f64b6f74792d2c125927458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/explosion.png using Guid(7e89d164f64b6f74792d2c125927458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf3b95f22b2d90d95b77950f455171e') in 0.248668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.731524 seconds.
+  path: Assets/Sprites/explosion.png
+  artifactKey: Guid(7e89d164f64b6f74792d2c125927458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/explosion.png using Guid(7e89d164f64b6f74792d2c125927458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33c4f2d6ed04414f29a30ccbde8dc5f') in 0.146725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.504060 seconds.
+  path: Assets/Sprites/explosion.png
+  artifactKey: Guid(7e89d164f64b6f74792d2c125927458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/explosion.png using Guid(7e89d164f64b6f74792d2c125927458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fc90cefe5f64af1c1866f019c4f2d6') in 0.734459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.469522 seconds.
+  path: Assets/Sprites/explosion.png
+  artifactKey: Guid(7e89d164f64b6f74792d2c125927458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/explosion.png using Guid(7e89d164f64b6f74792d2c125927458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f92e3cb1b5ea3e985fe9504412cf647') in 0.415033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.539669 seconds.
+  path: Assets/Sprites/explosion.png
+  artifactKey: Guid(7e89d164f64b6f74792d2c125927458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/explosion.png using Guid(7e89d164f64b6f74792d2c125927458a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3837ad693c16d5a904888c5f0616a8') in 0.439522 seconds 
