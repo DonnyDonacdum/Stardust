@@ -36,3 +36,7 @@ Mono path[0] = 'C:/Users/ASUS/Desktop/I am Angry/Answer/ediot/2021.1.20f1/Editor
 Mono path[1] = 'C:/Users/ASUS/Desktop/I am Angry/Answer/ediot/2021.1.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/ASUS/Desktop/I am Angry/Answer/ediot/2021.1.20f1/Editor/Data/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/ASUS/Desktop/I am Angry/Answer/ediot/2021.1.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007513 seconds.
