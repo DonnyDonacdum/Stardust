@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class D : MonoBehaviour
+public class Destroyer : MonoBehaviour
 {
    void DestroyGameObjet()
    {
