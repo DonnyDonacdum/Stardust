@@ -22,7 +22,7 @@ public class Star : MonoBehaviour
 
         Vector2 min = Camera.main.ViewportToWorldPoint(new Vector2(0, 0));
 
-        Vector2 max = Camera.main.ViewportToWorldPoint(new Vector2(0, 0));
+        Vector2 max = Camera.main.ViewportToWorldPoint(new Vector2(1, 1));
 
         if (transform.position.y < min.y)
         {
