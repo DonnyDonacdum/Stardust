@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7293321851870539565}
   - component: {fileID: 7293321851870539554}
   - component: {fileID: 7293321851870539555}
+  - component: {fileID: 925972463}
   m_Layer: 0
   m_Name: ExplosionGO
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5371098934410574880, guid: 7e89d164f64b6f74792d2c125927458a, type: 3}
+  m_Sprite: {fileID: -8092295105046505211, guid: 7e89d164f64b6f74792d2c125927458a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -103,3 +104,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &925972463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7293321851870539552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20c5e478d18c27419b069d724321f7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
