@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class PlayerControl : MonoBehaviour
 {
     public GameObject GameManagerGo;
-
     public GameObject PlayerBulletGO;
     public GameObject bulletPosition01;
     public GameObject bulletPosition02;
@@ -22,6 +21,8 @@ public class PlayerControl : MonoBehaviour
         lives = MaxLives;
 
         LivesUIText.text = lives.ToString();
+
+        transform.position = new Vector2(0, 0);
 
         gameObject.SetActive(true);
     }
