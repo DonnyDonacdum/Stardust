@@ -316,6 +316,7 @@ MonoBehaviour:
   PlayerBulletGO: {fileID: 2726420338493291774, guid: ed98ce4767058994ba2089c4f343ac0d, type: 3}
   bulletPosition01: {fileID: 1013358040}
   bulletPosition02: {fileID: 1457873062}
+  ExplsionGo: {fileID: 7293321851870539552, guid: d34a4d2f591df0543821e4e509173d04, type: 3}
   speed: 4
 --- !u!95 &1395328226
 Animator:
