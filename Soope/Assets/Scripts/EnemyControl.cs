@@ -39,7 +39,7 @@ public class EnemyControl : MonoBehaviour
 
     void PlayExplosion()
     {
-        GameObject explosion = (GameObject)Instantiate(ExplosionGo);
+        GameObject explosion = (GameObject)Instantiate (ExplosionGo);
 
         explosion.transform.position = transform.position;
     }
