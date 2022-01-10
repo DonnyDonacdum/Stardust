@@ -23,6 +23,7 @@ public class PlanetControllerGO : MonoBehaviour
     }
     void MovePlaneDown()
     {
+        EnqueuePlanets();
         if (availablePlanets.Count == 0)
             return;
         GameObject aPlanet = availablePlanets.Dequeue();
