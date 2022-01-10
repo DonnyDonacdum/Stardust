@@ -29,12 +29,12 @@ public class EnemyBullet : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        void OnTriggerEnter2d(Collider2D col)
+    }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag == "PlayerShipTag")
         {
-            if ((col.tag == "PlayerShipTag"))
-            {
-                Destroy(gameObject);
-            }
+            Destroy(gameObject);
         }
     }
 }

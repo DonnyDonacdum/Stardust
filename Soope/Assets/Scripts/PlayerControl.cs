@@ -6,6 +6,7 @@ public class PlayerControl : MonoBehaviour
     public GameObject PlayerBulletGO;
     public GameObject bulletPosition01;
     public GameObject bulletPosition02;
+    public GameObject ExplsionGo;
     public float speed;
     // Start is called before the first frame update
     void Start()
@@ -52,10 +53,19 @@ public class PlayerControl : MonoBehaviour
 
         transform.position = pos;
     }
-    void OnTriggerEnter2d(Collider2D col)
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        if((col.tag == "EnemyShipTag") || (col.tag == "EnemyBulletTag")){
+        if ((col.tag == "EnemyShipTag") || (col.tag == "EnemyBulletTag"))
+        {
+            PlayExplosion();
             Destroy(gameObject);
         }
+    }
+
+    void PlayExplosion()
+    {
+        GameObject explosion = (GameObject)Instantiate(ExplsionGo);
+
+        explosion.transform.position = transform.position;
     }
 }
