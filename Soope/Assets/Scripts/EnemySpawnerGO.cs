@@ -48,8 +48,19 @@ public class EnemySpawnerGO : MonoBehaviour
             CancelInvoke("IncreaseSpawn");
     }
 
+    public void ScheduleEnemySpawner()
+    {
+        Invoke("SpawnEnemy", maxSpawnRateinSeconds);
+
+        InvokeRepeating("IncreaseSpawn", 0f, 30f);
+    }
+    public void UnscheduleEnemySpawner()
+    {
+        CancelInvoke("IncreaseSpawn");
+        CancelInvoke("SpawnEnemy");
+    }
     void Update()
     {
-        
+       
     }
 }

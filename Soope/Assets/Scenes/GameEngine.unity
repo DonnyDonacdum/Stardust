@@ -633,7 +633,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 913291227}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 538917042}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: StartGameplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &913291227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -816,7 +828,7 @@ MonoBehaviour:
   bulletPosition02: {fileID: 1457873062}
   ExplsionGo: {fileID: 7293321851870539552, guid: d34a4d2f591df0543821e4e509173d04, type: 3}
   speed: 4
-  LivesUIText: {fileID: 0}
+  LivesUIText: {fileID: 909588374}
 --- !u!95 &1395328226
 Animator:
   serializedVersion: 3
