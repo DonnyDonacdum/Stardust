@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 6134112272113945507}
   m_Layer: 0
   m_Name: EnemyGO
-  m_TagString: Untagged
+  m_TagString: EnemyShipTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
