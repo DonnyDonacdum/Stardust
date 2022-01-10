@@ -26,5 +26,12 @@ public class EnemyControl : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        void OnTriggerEnter2d(Collider2D col)
+        {
+            if ((col.tag == "PlayerShipTag") || (col.tag == "PlayerBulletTag"))
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 }
