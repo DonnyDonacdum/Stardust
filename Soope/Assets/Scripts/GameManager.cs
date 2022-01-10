@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour
         {
             case GameManagerState.Opening:
 
+                GameOverGo.SetActive(false);
+
                 playButton.SetActive(true);
 
                 break;
@@ -41,6 +43,8 @@ public class GameManager : MonoBehaviour
                 break;
             case GameManagerState.Gameover:
                 enemySpawner.GetComponent<EnemySpawnerGO>().UnscheduleEnemySpawner();
+
+                GameOverGo.SetActive(true);
 
                 Invoke("ChangeOpening",8f);
 
