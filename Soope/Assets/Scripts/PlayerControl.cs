@@ -52,4 +52,10 @@ public class PlayerControl : MonoBehaviour
 
         transform.position = pos;
     }
+    void OnTriggerEnter2d(Collider2D col)
+    {
+        if((col.tag == "EnemyShipTag") || (col.tag == "EnemyBulletTag")){
+            Destroy(gameObject);
+        }
+    }
 }
